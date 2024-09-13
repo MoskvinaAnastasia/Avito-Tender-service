@@ -4,4 +4,4 @@
 .gradle
 gradle
 out/
-Dockerfile
+.env
