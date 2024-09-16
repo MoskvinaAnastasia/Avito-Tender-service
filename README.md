@@ -7,7 +7,6 @@
 ![Django REST Framework](https://img.shields.io/badge/Django%20REST%20Framework-ff1709?style=for-the-badge&logo=django&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-269539?style=for-the-badge&logo=nginx&logoColor=white)
 
 ## Описание проекта
 Данный проект реализует HTTP API для сервиса проведения тендеров. Он позволяет организациям создавать тендеры на оказание услуг, а пользователям и другим компаниям предлагать свои условия для участия в тендерах.
@@ -40,3 +39,10 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 ```
+
+### Комментарии для проверки
+
+- В папке images лежат скрины успешных запросов по эндпоинтам из задания.
+- Dockerfile изменен под язык python
+- в файлу .env по адресу tender_service/
+- в settings.py строки 81-90 настроенная переменная DATABASES для использования PostgreSQL (не могу разобраться с ошибкой, которая возникает, когда применяю новую переменную DATABASES)
